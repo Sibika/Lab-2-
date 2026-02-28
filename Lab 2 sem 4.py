@@ -3,7 +3,7 @@ import shutil
 import subprocess
 import platform
 from tkinter import *
-from tkinter import ttk, messagebox, filedialog
+from tkinter import ttk, messagebox
 
 
 class SimpleExplorer:
@@ -408,4 +408,5 @@ class SimpleExplorer:
 if __name__ == "__main__":
     root = Tk()
     app = SimpleExplorer(root)
+
     root.mainloop()
